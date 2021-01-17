@@ -9,4 +9,5 @@ app.get("/", function (req, res) {
 
 app.listen(PORT, () => {
   console.log(`The server has started and is listening on Port: ${PORT}.`);
+  app.close();
 });
